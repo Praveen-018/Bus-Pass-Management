@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="70dp"
+            android:paddingTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="about"
+            android:textColor="@color/black"
+            android:background="?attr/selectableItemBackground"
+            android:drawableLeft="@drawable/baseline_groups_24"
+            android:paddingBottom="20dp"
+            android:text="     About us"
+            android:textStyle="bold"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:onClick="help"
+            android:textColor="@color/black"
+            android:background="?attr/selectableItemBackground"
+            android:drawableLeft="@drawable/baseline_help_24"
+            android:text="     Help"
+            android:textStyle="bold"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:onClick="appinfo"
+            android:background="?attr/selectableItemBackground"
+            android:drawableLeft="@drawable/baseline_error_24"
+            android:text="     App info"
+            android:textStyle="bold"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/black" />
+
+    </LinearLayout>
+</FrameLayout>

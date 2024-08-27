@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722304642895",
+    "project_id": "buspass-bba08",
+    "storage_bucket": "buspass-bba08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722304642895:android:85b6d5d23f12db969adf3a",
+        "android_client_info": {
+          "package_name": "com.example.buspass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiR8nXCWwQW7pdWhbrw6fLV_x8p_h2RTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
